@@ -2,16 +2,22 @@ package model;
 
 public class BeeBot {
 
-    public void moveForward(){
-        System.out.println("Moving Forward");
+
+    public void moveForward() {
+        System.out.println("Move Forward");
     }
-    public void moveBack(){
-        System.out.println("Moving Back");
+
+    public void moveBack() {
+        System.out.println("Move Back");
     }
-    public void turnLeft(){
-        System.out.println("Turning left");
+
+    public void turnLeft() {
+        System.out.println("Turn Left");
     }
-    public void turnRight(){
-        System.out.println("Turning right");
+
+    public void turnRight() {
+        System.out.println("Turn Right");
     }
+
+
 }
